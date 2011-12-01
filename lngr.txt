@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>{Title}</title>
+    <link rel="icon" href="{Favicon}"/>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}"/>
+    <meta name="viewport" content="width=775"/> <!-- iPhone -->
+    <meta name="description" content="{Description}"/>
+    <style type="text/css">
+			body, html { background: #fff; margin:0px; padding:0px; border:0px; font-family: Georgia, 'Times New Roman', Times; font-size:16px; line-height:150%; color:#333; }
+      pre { font-size: 10px; }
+      a { color:#333; text-decoration: none; padding: 1px 2px; background: #f9fc7e; }
+      a:hover { color: #666; background: none; }
+      h1 { color:#666; font-weight: normal; margin-bottom:0px; }
+      h2 { color:#666; font-weight: normal; margin-bottom:0px; }
+      h3 { color:#666; font-weight: normal !important; margin-bottom:0px; }
+      h4 { color:#666; font-weight: normal; margin-bottom:0px; }
+      img { background: #fff !important; border: 1px solid #999; padding: 5px; margin: 0px; }
+      img a { text-decoration: none !important; background: #fff !important; margin: 0px; }
+      input { border: 1px solid #999; }
+      .photo a, .disqus a { text-decoration: none !important; background: #fff !important; }
+      .header { margin-bottom: 20px; }
+      .wrapper { width: 520px; margin: auto; }
+      .main { margin: 50px 0px; }
+      .datetime { font-size: 12px; line-height: 150%; color: #666; position:relative; float:left; margin-left:-250px; padding-right: 25px; border-right: 1px solid #999; width: 200px; text-align: right; clear: both; }
+      .navleft { font-size: 12px; position: relative; float: left; }
+      .navright { font-size: 12px; position: relative; float: right; }
+      .navcenter { font-size: 12px; text-align:center; width: 500px; }
+      .datetime a { color: #666; }
+      .post { padding-bottom: 30px; } 
+      .short_quote { margin: 0px; padding: 0px; font-size:62px; line-height: 110%; color: #666; } 
+      .medium_quote { margin: 0px; padding: 0px; font-size:36px; line-height: 115%; color: #666; } 
+      .long_quote { margin: 0px; padding: 0px; font-size:24px; line-height: 130%; color: #666; } 
+      a .notes { text-decoration: none !important; background: none; } 
+      .notes a { text-decoration: none !important; background: none; } 
+      img .notes { margin: 0px; padding: 3px; border: 1px solid #999; } 
+      .notes img { margin: 0px; padding: 3px; border: 1px solid #999; } 
+      .disqus { font-family: Georgia, 'Times New Roman', Times !important; size: 16px; line-height:150% !important; color:#333 !important; }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>{Title}</h1>
+        <p>{Description}</p>
+      </div>
+      <div class="main">
+        {block:SearchPage}
+        <div class="post">
+          <div class="datetime">
+            {SearchResultCount} result(s)
+          </div>
+          searched for <em>{SearchQuery}</em></h2>
+        </div>
+        {/block:SearchPage}
+        {block:Posts}
+        <div class="post">
+          <div class="datetime">
+            {block:NewDayDate}{Month} {DayOfMonth}, {Year} at {/block:NewDayDate}{12Hour}:{Minutes}{AmPm}<br />
+            {block:Pagination}
+            <a href="{Permalink}">{NoteCountWithLabel}</a><br />
+            {/block:Pagination}
+            {block:SearchPage}
+            <a href="{Permalink}">{NoteCountWithLabel}</a><br />
+            {/block:SearchPage}
+            {block:PermalinkPage}
+            <a href="/">home</a><br />
+            {/block:PermalinkPage}
+            {block:RebloggedFrom}reblogged from <a href="{ReblogParentURL}">{ReblogRootName}</a><br />{/block:RebloggedFrom}
+          </div>
+        {block:Regular}
+          {block:Title}<h2>{Title}</h2>{/block:Title}
+          <p>{Body}</p>
+        {/block:Regular}
+
+        {block:Photo}
+          <span class="photo">{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}" title="{PhotoAlt}">{LinkCloseTag}</span>
+          <p>{Caption}</p>
+        {/block:Photo}
+
+        {block:Quote}
+          <p><span class="{Length}_quote">{Quote}</span></p>
+          {block:Source}<p>&mdash;&nbsp;{Source}</p>{/block:Source}
+        {/block:Quote}
+
+        {block:Video}
+          {Video-500}
+          <p>{Caption}</p>
+        {/block:Video}
+
+        {block:Audio}
+          {AudioPlayerGrey}
+          <p>{Caption}</p>
+        {/block:Audio}
+
+        {block:Link}
+          <h2><a href="{URL}" {Target}>{Name}</a>&nbsp;&rarr;</h2>
+          {block:Description}<p>{Description}</p>{/block:Description}
+        {/block:Link}
+
+        {block:Conversation}
+          {block:Title}<h2>{Title}</h2>{/block:Title}
+          <p>
+          {block:Lines}
+          {block:Label}<strong>{Label}</strong>{/block:Label} {Line}<br />
+          {/block:Lines}
+          </p>
+        {/block:Conversation}
+        </div>
+        {/block:Posts}
+
+        {block:PermalinkPage}
+        {block:PostNotes}
+        <div class="post">
+          <h3>Notes</h3>
+          <p>{PostNotes}</p>
+        </div>
+        {/block:PostNotes}
+        <div class="post disqus">
+	<!--
+	  insert Disqus comment code here.
+	-->
+        </div>
+        {/block:PermalinkPage}
+
+
+        {block:Pagination}
+        {block:NextPage}
+        <div class="navleft">
+          &larr;&nbsp;<a href="{NextPage}">next</a>
+        </div>
+        {/block:NextPage}
+        {block:PreviousPage}
+        <div class="navright">
+          <a href="{PreviousPage}">previous</a>&nbsp;&rarr;
+        </div>
+        {/block:PreviousPage}
+        <div class="navcenter">
+          <span class="long_quote">{CurrentPage}.</span>
+        </div>
+        {/block:Pagination}
+        {block:PermalinkPagination}
+        {block:NextPost}
+        <div class="navleft">
+          &larr;&nbsp;<a href="{NextPost}">next post</a>
+        </div>
+        {/block:NextPost}
+        {block:PreviousPost}
+        <div class="navright">
+          <a href="{PreviousPost}">previous post</a>&nbsp;&rarr;
+        </div>
+        {/block:PreviousPost}
+        {/block:PermalinkPagination}
+
+      </div>
+      <div class="post">
+        <div class="navcenter">
+          <form action="/search" method="get">
+            <a href="/">home</a>&nbsp;&nbsp;<a href="/archive/">archive</a>&nbsp;&nbsp;<a href="/mobile">mobile</a>&nbsp;&nbsp;<a href="{RSS}">rss</a>&nbsp;&nbsp;<input type="text" name="q" value="{SearchQuery}"/>&nbsp;&nbsp;<input type="submit" value="Search"/>
+          </form>
+        </div>
+      </div>
+      <div class="post">
+        <div class="navcenter">
+          Themed by <a href="http://langer.tumblr.com">langer</a>, powered by <a href="http://www.tumblr.com">Tumblr</a>.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
