@@ -1,4 +1,4 @@
-@media screen and max-width3000px {
+@media screen and (min-width:1401px) {
 	body
 	{
 		width:50%;
@@ -11,7 +11,7 @@
 	
 }
 
-@media screen and max-width1400px {
+@media screen and (max-width:1400px) {
 	body
 	{
 		width:70%;
@@ -24,7 +24,7 @@
 	
 }
 
-@media screen and max-width1024px {
+@media screen and (max-width:1024px) {
 	body
 	{
 		width:90%;
@@ -36,7 +36,7 @@
 	}
 }
 
-@media screen and max-width770px {
+@media screen and (max-width:770px) {
 	body
 	{
 		width:auto;

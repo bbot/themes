@@ -4,13 +4,14 @@
 
 Features!
 
-1. Uses HTML5 semantic tags throughout! The header is in a &lt;header&gt; block, each post is an &lt;article&gt;, post dates are inside (incorrect, nonstandard) &lt;time&gt; tags. The HTML5 outliner produces a correct outline. Shit's beautiful.
-2. <a href="http://c1qfxugcgy0.tumblr.com/post/17714651298/responsive-design-hijinx">Theme scales from 3000 pixel wide monitors down to 400 pixel wide phones.</a>
+1. Uses HTML5 semantic tags throughout! The header is in a &lt;header&gt; block, each post is an &lt;article&gt;, post dates are inside (incorrect, nonstandard) &lt;time&gt; tags. The HTML5 outliner produces a correct outline. Shit's beautiful!
+2. <a href="http://c1qfxugcgy0.tumblr.com/post/17714651298/responsive-design-hijinx">Theme scales from 3000 pixel wide monitors down to 320 pixel wide phones!</a>
 3. <a href="http://c1qfxugcgy0.tumblr.com/post/17363683243/wait-a-minute">Code highlighting!</a>
-4. Semantic "older posts" "newer posts" navigation links.
-5. Minified CSS and HTML.
+4. Semantic "older posts" "newer posts" navigation links!
+5. Minified CSS and HTML!
 6. <a href="http://c1qfxugcgy0.tumblr.com/post/13182369086/how-to-use-css-to-format-pesterlog-text">Pesterchat formatted text!</a>
-7. <a href="http://c1qfxugcgy0.tumblr.com/post/16071364335/theworstpersonintheworld-zachandmax-this">Yotsuba-themed posts!</a> That are kinda broken, and a real pain in the ass to write! This will be slightly less fucked in version 1.1.0.
+7. <a href="http://c1qfxugcgy0.tumblr.com/post/16071364335/theworstpersonintheworld-zachandmax-this">Yotsuba-themed posts!</a> That are kinda broken, and a real pain in the ass to write! This will be slightly less fucked in version 1.1.0!
+8. No description field! If you let a Tumblr user describe themselves, they'll tell the world their age (14) their gender/orienation (asexual homoromantic) and favorite pony. (Rainbow Dash) YAA removes this temptation!
 
 Bugs!
 
