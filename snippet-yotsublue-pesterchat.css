@@ -1,0 +1,264 @@
+.yotsublue
+{
+	line-height:1.2em;
+	font-family:arial,helvetica,sans-serif;
+	font-size:10pt;
+	background:#EEF2FF;
+	overflow:auto;
+}
+
+.yotsublue img
+{
+	border:none;
+	float:left;
+	vertical-align:top;
+	margin:0 20px;
+	padding:0;
+}
+
+.yotsublue blockquote
+{
+	border:none;
+	padding:0;
+}
+
+.doubledash
+{
+	color:#B7C5D9;
+	vertical-align:top;
+	clear:both;
+	float:left;
+}
+
+.greentext
+{
+	color:#789922;
+}
+
+.commentpostername
+{
+	color:#117743;
+	font-weight:800;
+	background:inherit;
+}
+
+.yotsublue .reply
+{
+	color:#000;
+	border:1px solid #B7C5D9;
+	border-left:none;
+	border-top:none;
+	background:#D6DAF0;
+	overflow:auto;
+	float:left;
+	margin:2px;
+	padding:2px;
+}
+
+.yotsublue a.quotejs:active,.yotsublue a.quotejs:link,.yotsublue a.quotejs:visited
+{
+	text-decoration:none;
+}
+
+.yotsublue a,.yotsublue a:visited
+{
+	color:#34345C;
+}
+
+.yotsublue a:hover,.quotelink,.yotsublue a.quotejs:hover
+{
+	color:#D00;
+}
+
+blockquote.pesterlog
+{
+	width:600px;
+	border:1px dashed gray;
+	background:#eee;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+	line-height:1em;
+	padding:5px;
+}
+
+.pesterlog p
+{
+	margin:0;
+}
+
+.dave
+{
+	color:#e00707;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.john
+{
+	color:#0715cd;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.rose
+{
+	color:#b536da;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.jade
+{
+	color:#4ac925;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.davesprite,.bro
+{
+	color:#f2a400;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.mom,.jaspersprite
+{
+	color:#ff6ff2;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.jake,.jadesprite
+{
+	color:#1f9400;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.jane,.nanna
+{
+	color:#00d5f2;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.uu
+{
+	color:#929292;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.scratch
+{
+	color:#000;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.aradia
+{
+	color:#a10000;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.tavros
+{
+	color:#a15000;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.sollux
+{
+	color:#a1a100;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.karkat
+{
+	color:#626262;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.nepeta
+{
+	color:#416600;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.kanaya
+{
+	color:#008141;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.terezi
+{
+	color:#008282;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.vriska
+{
+	color:#005682;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.equius
+{
+	color:#000056;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.gamzee
+{
+	color:#2b0057;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.eridan
+{
+	color:#6a006a;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
+
+.feferi
+{
+	color:#77003c;
+	font-weight:700;
+	font-family:courier, monospace;
+	font-size:14px;
+}
