@@ -6,7 +6,7 @@ Features!
 
 1. Uses HTML5 semantic tags throughout! The header is in a &lt;header&gt; block, each post is an &lt;article&gt;, post dates are inside (incorrect, nonstandard) &lt;time&gt; tags. The HTML5 outliner produces a correct outline. Shit's beautiful.
 2. <a href="http://c1qfxugcgy0.tumblr.com/post/17714651298/responsive-design-hijinx">Theme scales from 3000 pixel wide monitors down to 400 pixel wide phones.</a>
-3. <a href="c1qfxugcgy0.tumblr.com/post/17363683243/wait-a-minute">Code highlighting!</a>
+3. <a href="http://c1qfxugcgy0.tumblr.com/post/17363683243/wait-a-minute">Code highlighting!</a>
 4. Semantic "older posts" "newer posts" navigation links.
 5. Minified CSS and HTML.
 6. <a href="http://c1qfxugcgy0.tumblr.com/post/13182369086/how-to-use-css-to-format-pesterlog-text">Pesterchat formatted text!</a>
@@ -22,4 +22,4 @@ Bugs!
 
 Implementation details!
 
-Each stylesheet is generated from snippets using YUIcompressor's @import faculty. This means I only have to edit the CSS in one spot, to have to automatically propgate to each minified stylesheet, like we're living in the fucking *future.*
+1. Each stylesheet is generated from snippets using YUIcompressor's @import faculty. This means I only have to edit the CSS in one spot, to have to automatically propgate to each minified stylesheet, like we're living in the fucking *future.*
