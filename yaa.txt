@@ -5,15 +5,34 @@
 <!-- Yet Another Atlantic v0.8.0 by !!c1QfXUgcGY0. Readable source at https://github.com/bbot/themes -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="if:Core CSS" content="0" />
+<meta name="if:Core CSS plus code highlighting" content="0" />
+<meta name="if:All CSS Features" content="1" />
+
 <title>{Title}{block:PostTitle}-{PostTitle}{/block:PostTitle}</title>
 {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
 <link rel="shortcut icon" href="{Favicon}">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}" />
-<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa-minified.css">
+
+{block:IfCoreCSS}
+<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa.css">
+{/block:IfCoreCSS}
+
+{block:IfCoreCSSPlusCodeHighlighting}
+<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa+.css">
+<script defer onload="prettyPrint()" src="http://static.tumblr.com/lbljhin/F97m0by8a/prettify.es"></script>
+{/block:IfCoreCSSPlusCodeHighlighting}
+
+{block:IfAllCSSFeatures}
+<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa++.css">
+<script defer onload="prettyPrint()" src="http://static.tumblr.com/lbljhin/F97m0by8a/prettify.es"></script>
+{/block:IfAllCSSFeatures}
+
 <style type="text/css">
 {CustomCSS}
 </style>
-<script defer onload="prettyPrint()" src="http://static.tumblr.com/lbljhin/F97m0by8a/prettify.es"></script>
+
 </head>
 
 <body>
