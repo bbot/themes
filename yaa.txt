@@ -9,7 +9,10 @@
 {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
 <link rel="shortcut icon" href="{Favicon}">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}" />
-<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa-minified.css"></style>
+<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa-minified.css">
+<style type="text/css">
+{CustomCSS}
+</style>
 <script defer onload="prettyPrint()" src="http://static.tumblr.com/lbljhin/F97m0by8a/prettify.es"></script>
 </head>
 
