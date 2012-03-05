@@ -39,6 +39,19 @@
 
 <body>
 
+<!--[if lt IE 9]>
+<div id="nagbox">
+     <div id="nagfloat">
+     	  <img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' width="53px" alt='Warning!' />
+      	  <div>
+	       <b>You are using an outdated browser</b><br>
+	       <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.
+	  </div>
+      </div>
+</div>
+<![endif]-->
+
+
 <header><h1><a href="/" class="title">{Title}</a></h1></header>
 
 {block:Posts}

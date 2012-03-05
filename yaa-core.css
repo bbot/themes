@@ -50,6 +50,35 @@ body
 	margin:auto;
 }
 
+#nagbox
+{
+    border:1px solid #F7941D;
+    background:#FEEFDA;
+    height:75px; 
+    position:relative;
+    font-family:sans-serif;
+}
+
+#nagfloat
+{
+    width: 640px;
+    margin: 0 auto;
+}
+
+#nagfloat img
+{
+    float:left;
+    border:0;
+}
+
+#nagfloat div
+{
+    width:500px;
+    padding-top:10px;
+    padding-left:15px;
+    float:left;
+}
+
 a
 {
 	color:#0F6F9F;
