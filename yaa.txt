@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa.css">
 {/block:IfCoreCSS}
 
+<!-- TODO: UPLOAD RESOURCES -->
+
 {block:IfCoreCSSPlusCodeHighlighting}
 <link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa+.css">
 <script defer onload="prettyPrint()" src="http://static.tumblr.com/lbljhin/F97m0by8a/prettify.es"></script>
