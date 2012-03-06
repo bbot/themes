@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Yet Another Atlantic v0.9.0 by !!c1QfXUgcGY0. Readable source at https://github.com/bbot/themes -->
+<!-- This is free and unencumbered software released into the public domain. -->
+
 <head>
-<!-- Yet Another Atlantic v0.8.0 by !!c1QfXUgcGY0. Readable source at https://github.com/bbot/themes -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,18 +18,16 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}" />
 
 {block:IfCoreCSS}
-<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa.css">
+<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/Qxtm0h6ex/yaa.css">
 {/block:IfCoreCSS}
 
-<!-- TODO: UPLOAD RESOURCES -->
-
 {block:IfCoreCSSPlusCodeHighlighting}
-<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa+.css">
+<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/hwOm0h6fu/yaa_.css">
 <script defer onload="prettyPrint()" src="http://static.tumblr.com/lbljhin/F97m0by8a/prettify.es"></script>
 {/block:IfCoreCSSPlusCodeHighlighting}
 
 {block:IfAllCSSFeatures}
-<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/jMqm0ct79/yaa++.css">
+<link rel="stylesheet" href="http://static.tumblr.com/lbljhin/3F2m0h6gl/yaa__.css">
 <script defer onload="prettyPrint()" src="http://static.tumblr.com/lbljhin/F97m0by8a/prettify.es"></script>
 {/block:IfAllCSSFeatures}
 
