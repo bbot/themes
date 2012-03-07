@@ -1,3 +1,9 @@
+@mixin box-shadow($top, $left, $blur, $spread, $color) {
+    -webkit-box-shadow: $top $left $blur $spread $color;
+    -moz-box-shadow: $top $left $blur $spread $color;
+    box-shadow: $top $left $blur $spread $color;
+}
+
 @media screen and (min-width:1401px) {
 	body
 	{
@@ -6,7 +12,7 @@
 	
 	h1
 	{
-		font-size:9em;
+		font-size:8em;
 	}
 	
 }
@@ -24,7 +30,7 @@
 	
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1100px) {
 	body
 	{
 		width:90%;
@@ -36,18 +42,33 @@
 	}
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:800px) {
 	body
 	{
 		width:auto;
+		padding:5px;
 	}
+}
+
+@media screen and (min-width:801px) {
+        body
+	{
+		padding:20px;
+	}
+}
+
+html
+{
+	background:#DDD;
 }
 
 body
 {
+	background:#FFF;
 	font-family:Georgia, Helvetica, sans-serif;
 	color:#202020;
-	margin:auto;
+	margin:10px auto;
+	@include box-shadow(0, 0, 5px, 5px, #DDD);
 }
 
 #nagbox
@@ -63,21 +84,20 @@ body
 {
     width: 640px;
     margin: 0 auto;
+    	    img
+	    {
+	        float:left;
+	    	border:0;
+	    }
+	    div
+	    {
+	        width:500px;
+    		padding-top:10px;
+    		padding-left:15px;
+    		float:left;
+	    }
 }
 
-#nagfloat img
-{
-    float:left;
-    border:0;
-}
-
-#nagfloat div
-{
-    width:500px;
-    padding-top:10px;
-    padding-left:15px;
-    float:left;
-}
 
 a
 {
