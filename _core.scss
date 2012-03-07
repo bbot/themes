@@ -68,7 +68,7 @@ body
 	font-family:Georgia, Helvetica, sans-serif;
 	color:#202020;
 	margin:10px auto;
-	@include box-shadow(0, 0, 5px, 5px, #DDD);
+	@include box-shadow(0, 0, 5px, 5px, #999);
 }
 
 #nagbox
