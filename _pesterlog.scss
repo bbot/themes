@@ -1,4 +1,4 @@
-@mixin pestertext {
+blockquote.pesterlog,.dave,.john,.rose,.dave,.dirk,.davesprite,.roxy,.jaspersprite,.jake,.jadesprite,.jane,.nannasprite,.uu,.scratch,.aradia,.sollux,.karkat,.nepeta,.kanaya,.terezi,.vriska,.equius,.gamzee,.eridan,.feferi {
        font: {
 	weight: 700;
        	family: courier, monospace;
@@ -11,36 +11,35 @@ blockquote.pesterlog {
 		     border:1px dashed gray;
 		     padding:5px;
 		     background:#eee;
-		     line-height:1em; 
-		     @include pestertext;
+		     line-height:1em; 		     
 }
 
 .pesterlog p {
 	   margin:0
 }
 
-.dave{color:#e00707; @include pestertext;}
-.john{color:#0715cd; @include pestertext;}
-.rose{color:#b536da; @include pestertext;}
-.jade{color:#4ac925; @include pestertext;}
+.dave{color:#e00707;}
+.john{color:#0715cd;}
+.rose{color:#b536da;}
+.jade{color:#4ac925;}
 
-.dirk,.davesprite{color:#f2a400;@include pestertext;}
-.roxy,.jaspersprite{color:#ff6ff2;@include pestertext;}
-.jake,.jadesprite{color:#1f9400;@include pestertext;}
-.jane,.nannasprite{color:#00d5f2;@include pestertext;}
+.dirk,.davesprite{color:#f2a400;}
+.roxy,.jaspersprite{color:#ff6ff2;}
+.jake,.jadesprite{color:#1f9400;}
+.jane,.nannasprite{color:#00d5f2;}
 
-.uu{color:#929292;@include pestertext;}
-.scratch{color:#000;@include pestertext;}
+.uu{color:#929292;}
+.scratch{color:#000;}
 
-.aradia{color:#a10000;@include pestertext;}
-.tavros{color:#a15000;@include pestertext;}
-.sollux{color:#a1a100;@include pestertext;}
-.karkat{color:#626262;@include pestertext;}
-.nepeta{color:#416600;@include pestertext;}
-.kanaya{color:#008141;@include pestertext;}
-.terezi{color:#008282;@include pestertext;}
-.vriska{color:#005682;@include pestertext;}
-.equius{color:#000056;@include pestertext;}
-.gamzee{color:#2b0057;@include pestertext;}
-.eridan{color:#6a006a;@include pestertext;}
-.feferi{color:#77003c;@include pestertext;}
+.aradia{color:#a10000;}
+.tavros{color:#a15000;}
+.sollux{color:#a1a100;}
+.karkat{color:#626262;}
+.nepeta{color:#416600;}
+.kanaya{color:#008141;}
+.terezi{color:#008282;}
+.vriska{color:#005682;}
+.equius{color:#000056;}
+.gamzee{color:#2b0057;}
+.eridan{color:#6a006a;}
+.feferi{color:#77003c;}
