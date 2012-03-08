@@ -4,7 +4,7 @@
     box-shadow: $top $left $blur $spread $color;
 }
 
-@media screen and (min-width:1401px) {
+@media screen and (min-width:1501px) {
 	body
 	{
 		width:50%;
@@ -17,7 +17,7 @@
 	
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1500px) {
 	body
 	{
 		width:70%;
@@ -217,7 +217,6 @@ article .bottom a:hover
 
 #pagination
 {
-	font-size:12px;
 	text-align:right;
 	border-top:3px solid #202020;
 	border-bottom:1px solid #202020;
@@ -225,15 +224,13 @@ article .bottom a:hover
 	padding:8px 0;
 }
 
-#pagination a.button
-{
-	font-size:12px;
-	font-weight:700;
-	text-transform:uppercase;
-	margin-left:12px;
+.button {
+     font-weight:700;
+     text-transform:uppercase;
+     margin-left:12px;
 }
 
-#pagination .rss
+.rss
 {
 	float:left;
 }
@@ -250,7 +247,7 @@ footer
 	  }
 }
 
-h2 a
+header a,h2 a,header a:hover
 {
 	color:#202020;
 }
