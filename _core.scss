@@ -68,7 +68,7 @@ body
 	font-family:Georgia, Helvetica, sans-serif;
 	color:#202020;
 	margin:10px auto;
-	@include box-shadow(0, 0, 5px, 5px, #999);
+	@include box-shadow(0, 0, 40px, 5px, #999);
 }
 
 #nagbox
@@ -172,7 +172,6 @@ h2
 {
 	font-size:2em;
 	letter-spacing:-1px;
-	font-weight:700;
 	line-height:34px;
 	margin:10px 0;
 }
@@ -246,25 +245,12 @@ footer
 	text-align:right;
 	overflow:hidden;
 	margin:8px 0 0;
+	a {
+	  color:#8E8E8E
+	  }
 }
 
-footer form
-{
-	float:left;
-	margin:0 auto 10px;
-}
-
-footer form input.text
-{
-	width:250px;
-}
-
-footer a
-{
-	color:#8E8E8E;
-}
-
-header a,h2 a
+h2 a
 {
 	color:#202020;
 }
