@@ -17,6 +17,8 @@ Features!
 10. <a href="https://github.com/bbot/themes/commit/046249aa93df9b82312648f9c45653d214a3618f">UI interface for toggling stylesheet features!</a>
 11. <a href="https://github.com/bbot/themes/commit/5e37d7236f65ba438b1ff9c5e322a5daf6ad2afa">CustomCSS!</a>
 12. Released under the public domain &#8220;<a href="http://unlicense.org/">unlicense</a>&#8221;!
+13. Works just fine with NoScript!
+14. Tested in Firefox, (Windows, Linux) Chrome, (Windows, Linux) Internet Explorer, Safari, iPad, iPhone, Lynx!
 
 Bugs!
 

@@ -12,10 +12,24 @@
 <meta name="if:Code highlighting plus core CSS" content="0" />
 <meta name="if:Core CSS" content="0" />
 
+<meta name="if:License - Most Restrictive" content="1" />
+<meta name="if:License - Creative Commons BY NC SA" content="0" />
+<meta name="if:License - Public Domain" content="0" />
+<meta name="text:License - Your name" content=""/>
+<meta name="text:License - Your URL" content=""/>
+
 <title>{Title}{block:PostTitle}-{PostTitle}{/block:PostTitle}</title>
 {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
 <link rel="shortcut icon" href="{Favicon}">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}" />
+
+{block:IfLicense-CreativeCommonsBYNCSA}
+<link rel="copyright" href="//creativecommons.org/licenses/by-nc-sa/3.0/" />
+{/block:IfLicense-CreativeCommonsBYNCSA}
+
+{block:IfLicense-PublicDomain}
+<link rel="copyright" href="http://creativecommons.org/publicdomain/zero/1.0/" />
+{/block:IfLicense-PublicDomain}
 
 {block:IfCoreCSS}
 <link rel="stylesheet" href="http://static.tumblr.com/lbljhin/Qxtm0h6ex/yaa.css">
@@ -125,4 +139,31 @@
      {block:PermalinkPagination}{block:PreviousPost}<a href="{PreviousPost}" class="button">Older post</a>{/block:PreviousPost}{block:NextPost}<a href="{NextPost}" class="button">Newer post</a>{/block:NextPost}{/block:PermalinkPagination}
 </div>
 
-<footer>Theme: <a href="https://github.com/bbot/themes">Yet Another Atlantic.</a></footer>
+<footer><div class="rss">
+
+{block:IfLicense-CreativeCommonsBYNCSA}
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" {block:IfLicense-YourURL}href="{text:License - Your URL}"{/block:IfLicense-YourURL} property="cc:attributionName" rel="cc:attributionURL">{block:IfLicense-YourName}{text:License - Your Name}{/block:IfLicense-YourName}</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons</a>.
+{/block:IfLicense-CreativeCommonsBYNCSA}
+
+{block:IfLicense-PublicDomain}
+<p xmlns:dct="http://purl.org/dc/terms/">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/80x15.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="url">
+    <span property="dct:title">{block:IfLicense-YourName}{text:License - Your Name}{/block:IfLicense-YourName}</span></a>
+  has waived all copyright and related or neighboring rights to
+  this work.
+</p>
+{/block:IfLicense-PublicDomain}
+
+{block:IfLicense-MostRestrictive}
+<b>© {block:IfLicense-YourName}{text:License - Your Name}{/block:IfLicense-YourName}</b>
+{/block:IfLicense-MostRestrictive}
+</div> 
+
+Theme: <a href="https://github.com/bbot/themes">Yet Another Atlantic.</a></footer>
