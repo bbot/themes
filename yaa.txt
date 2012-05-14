@@ -35,7 +35,7 @@
 <link rel="stylesheet" href="http://static.tumblr.com/lbljhin/Qxtm0h6ex/yaa.css">
 {/block:IfCoreCSS}
 
-{block:IfCodeHighlightingPlusCoreCSS}
+{block:IfCoreCSSPlusCodeHighlighting}
 <link rel="stylesheet" href="http://static.tumblr.com/lbljhin/hwOm0h6fu/yaa_.css">
 <script defer onload="prettyPrint()" src="http://static.tumblr.com/lbljhin/F97m0by8a/prettify.es"></script>
 {/block:IfCoreCSSPlusCodeHighlighting}
