@@ -1,3 +1,10 @@
+@media screen and (min-width:801px) {
+        body
+	{
+		padding:20px;
+	}
+}
+
 header
 {
 	border-bottom:3px solid #202020;
@@ -16,7 +23,6 @@ h1
 article
 {
 	border-top:1px solid #202020;
-	font-size:16px;
 	line-height:1.6em;
 	margin-bottom:40px;
 	padding:8px 0 0;
