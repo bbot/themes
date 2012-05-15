@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html lang="en">
 
-<!-- Yet Another Atlantic v0.9.1 by !!c1QfXUgcGY0. Readable source at https://github.com/bbot/themes -->
+<!-- Yet Another Atlantic v0.9.9 by !!c1QfXUgcGY0. Readable source at https://github.com/bbot/themes -->
 <!-- This is free and unencumbered software released into the public domain. -->
 
 <head>
